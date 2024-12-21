@@ -3,10 +3,7 @@ Title: Multiple Measurement Morphometric Mean
 Version: 0.0.0.9000
 Authors@R: 
     person("Augusto", "Carvalho", , "nunesaugusto4@gmail.com", role = c("aut", "cre"))
-Description: Taxonomists often take multiple measurements for each morphometric trait of 
-interest when describing specimens and species
-The `measuremean()` funtion calculate the mean for each morphometric trait
-given horizontally or vertically tabled measures. 
+Description:
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
