@@ -6,7 +6,7 @@
 #' @param voucher name of the column with specimen ID
 #' @param uniqueid Column to be removed if 'orientation = 1', and a column
 #' with an unique identifier is included
-#'
+#' @import dplyr
 #' @returns a dataframe with calculated means for each trait
 #'
 #' @examples
@@ -19,20 +19,11 @@
 #'
 #'
 #'file_path <- system.file("extdata", "data_columns.csv", package = "measuremean")
-#' ata_columns <- read.csv(file_path, check.names = FALSE)
+#'data_columns <- read.csv(file_path, check.names = FALSE)
 #'avgdf_columns <- measuremean(data_columns, orientation = 2, voucher = "Vouchers")
 #'
 #' @export
-
-install_if_needed <- function(pkg) {
-  if (!requireNamespace(pkg, quietly = TRUE)) {
-    install.packages(pkg)
-  }
-}
-
-
 measuremean <- function(x, orientation = 1, voucher, uniqueid = NULL) {
-  install_if_needed("dplyr")
   if (missing(voucher)) {
     stop("Error: speciment voucher missing")
   }
