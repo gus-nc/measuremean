@@ -2,8 +2,11 @@ Package: measuremean
 Title: Multiple Measurement Morphometric Mean
 Version: 0.0.0.9000
 Authors@R: 
-    person("Augusto", "Carvalho", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Augusto", "Carvalho", , "nunesaugusto4@gmail.com", role = c("aut", "cre"))
+Description: Taxonomists often take multiple measurements for each morphometric trait of 
+interest when describing specimens and species
+The `measuremean()` funtion calculate the mean for each morphometric trait
+given horizontally or vertically tabled measures. 
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
