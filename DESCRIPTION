@@ -11,3 +11,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports:
     dplyr
+URL: https://github.com/gus-nc/measuremean
+BugReports: https://github.com/gus-nc/measuremean/issues
