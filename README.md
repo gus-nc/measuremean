@@ -1,4 +1,4 @@
-# Multiple Measurement Morphometric Mean
+# Multiple Measurement Morphometric Mean Package
 
 Taxonomists often take multiple measurements for each morphometric trait of interest when describing specimens and species.
 These measurements are then averaged to obtain a representative value for the trait. 
